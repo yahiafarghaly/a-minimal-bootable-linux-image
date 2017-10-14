@@ -1,0 +1,9 @@
+#!/bin/sh
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+export PATH
+/bin/mount -t proc proc /proc
+/bin/mount -t sysfs sysfs /sys
+/sbin/mdev -s
+/bin/hostname elinux2_6
+/bin/echo "Hi, yahia"
+/bin/echo "This is your cutsom made kernel v2.6"

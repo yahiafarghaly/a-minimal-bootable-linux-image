@@ -1,0 +1,5 @@
+export PS1='yahiaMiniOS$'
+export USER=`id -un`
+export HISTSIZE=1000
+echo "ya welcome ya welcome ^__^"
+echo " "
